@@ -1,10 +1,9 @@
 package br.com.app.visa.dto.founding;
 
-import br.com.app.visa.dto.founding.address.AddressDto;
-import br.com.app.visa.dto.founding.addressverificationdata.AddressVerificationDataDto;
-import br.com.app.visa.dto.founding.cardacceptor.CardAcceptorDto;
-import br.com.app.visa.dto.founding.colombianationalservicedata.ColombiaNationalServiceDataDto;
-import br.com.app.visa.dto.founding.riskAssessmentData.RiskAssessmentDataDto;
+import br.com.app.visa.dto.addressverificationdata.AddressVerificationDataDto;
+import br.com.app.visa.dto.cardacceptor.CardAcceptorDto;
+import br.com.app.visa.dto.colombianationalservicedata.ColombiaNationalServiceDataDto;
+import br.com.app.visa.dto.riskAssessmentData.RiskAssessmentDataDto;
 import lombok.Getter;
 import lombok.Setter;
 
