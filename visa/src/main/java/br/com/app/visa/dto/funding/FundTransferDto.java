@@ -32,5 +32,7 @@ public class FundTransferDto {
     private String foreignExchangeFeeTransaction;
     private String senderCardExpiryDate;
     private String nationalReimbursementFee;
-
+    private String cardNumber;
+    private String cvcCard;
+    private String expirationDate;
 }
