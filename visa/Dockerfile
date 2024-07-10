@@ -1,7 +1,7 @@
 FROM openjdk:21-jdk
 
-COPY target/processamento-3.3.1.jar /app/app.jar
+COPY target/visa-0.0.1.jar /app/app.jar
 
-EXPOSE 8081
+EXPOSE 8080
 
 CMD ["java", "-jar", "app/app.jar"]
