@@ -18,7 +18,7 @@ import java.security.cert.CertificateException;
 
 class Authentication {
 
-
+/*
 
     private CloseableHttpClient createHttpClient() throws KeyManagementException, UnrecoverableKeyException, NoSuchAlgorithmException, KeyStoreException, CertificateException, IOException {
 
@@ -69,4 +69,6 @@ class Authentication {
 
     CloseableHttpClient httpClient = HttpClients.custom()
             .setSSLSocketFactory(sslSocketFactory).build();
+            */
+
 }
