@@ -6,6 +6,8 @@
 #   TRUSTSTORE_PASSWORD: value
 #   KEY_STORE_PASSWORD: value
 #   KEY_STORE_PATH: value
+server:
+  port: 8080
 spring:
   application:
     name: VISA
@@ -24,7 +26,7 @@ spring:
       pool-name: NecropolisHikariCP
   jpa:
     hibernate:
-      ddl-auto: update
+      ddl-auto: none
     properties:
       hibernate:
         dialect: org.hibernate.dialect.MySQLDialect
