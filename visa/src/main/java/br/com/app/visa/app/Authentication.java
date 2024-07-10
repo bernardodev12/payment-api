@@ -56,4 +56,17 @@ class Authentication {
 
         return sslcontext;
     }
+
+    SSLContext sslcontext = SSLContexts.custom()
+            .loadKeyMaterial(new File(KEY_STORE_PATH), KEY_STORE_PASSWORD.toCharArray(),
+                    PRIVATE_KEY_PASSWORD.toCharArray())
+            .loadTrustMaterial(new File(KEY_STORE_PATH), KEY_STORE_PASSWORD.toCharArray())
+            .build();
+
+    // Allow TLSv1.2 protocol only
+    SSLConnectionSocketFactory sslSocketFactory = new SSLConnectionSocketFactory(sslcontext, new String[] { "TLSv1.2" }, null,
+            SSLConnectionSocketFactory.getDefaultHostnameVerifier());
+
+    CloseableHttpClient httpClient = HttpClients.custom()
+            .setSSLSocketFactory(sslSocketFactory).build();
 }
