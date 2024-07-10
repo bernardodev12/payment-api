@@ -22,3 +22,10 @@ spring:
       max-lifetime: 1800000
       connection-timeout: 30000
       pool-name: NecropolisHikariCP
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+    database-platform: org.mariadb.jdbc.Driver
