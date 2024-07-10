@@ -1,4 +1,4 @@
-package br.com.app.visa.dto.founding;
+package br.com.app.visa.dto.funding;
 
 import br.com.app.visa.dto.addressverificationdata.AddressVerificationDataDto;
 import br.com.app.visa.dto.cardacceptor.CardAcceptorDto;
@@ -9,7 +9,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class FoundTransferDto {
+public class FundTransferDto {
 
     private String surcharge;
     private String amount;

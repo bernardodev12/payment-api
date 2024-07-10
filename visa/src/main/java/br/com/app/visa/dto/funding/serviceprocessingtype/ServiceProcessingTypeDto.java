@@ -1,4 +1,4 @@
-package br.com.app.visa.dto.founding.serviceprocessingtype;
+package br.com.app.visa.dto.funding.serviceprocessingtype;
 
 import lombok.Getter;
 import lombok.Setter;

@@ -1,4 +1,4 @@
-package br.com.app.visa.dto.founding.tokendata;
+package br.com.app.visa.dto.funding.tokendata;
 
 import lombok.Getter;
 import lombok.Setter;

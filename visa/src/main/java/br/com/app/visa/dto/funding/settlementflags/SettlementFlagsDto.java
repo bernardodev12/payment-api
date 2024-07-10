@@ -1,4 +1,4 @@
-package br.com.app.visa.dto.founding.settlementflags;
+package br.com.app.visa.dto.funding.settlementflags;
 
 import lombok.Getter;
 import lombok.Setter;

@@ -1,4 +1,4 @@
-package br.com.app.visa.dto.founding.vaurtauthreplacementdata;
+package br.com.app.visa.dto.funding.vaurtauthreplacementdata;
 
 import lombok.Getter;
 import lombok.Setter;

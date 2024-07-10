@@ -1,4 +1,4 @@
-package br.com.app.visa.dto.founding.pointofservicedata;
+package br.com.app.visa.dto.funding.pointofservicedata;
 
 import lombok.Getter;
 import lombok.Setter;

@@ -1,15 +1,15 @@
-package br.com.app.visa.dto.founding;
+package br.com.app.visa.dto.funding;
 
-import br.com.app.visa.dto.founding.pointofservicedata.PointOfServiceDataDto;
-import br.com.app.visa.dto.founding.serviceprocessingtype.ServiceProcessingTypeDto;
+import br.com.app.visa.dto.funding.pointofservicedata.PointOfServiceDataDto;
+import br.com.app.visa.dto.funding.serviceprocessingtype.ServiceProcessingTypeDto;
 
-import br.com.app.visa.dto.founding.tokendata.TokenDataDto;
+import br.com.app.visa.dto.funding.tokendata.TokenDataDto;
 import lombok.Getter;
 import lombok.Setter;
 
 @Getter
 @Setter
-public class ReturnFoundTransactionDto {
+public class ReturnFundTransactionDto {
     private String approvalCode;
     private Long last4ofPAN;
     private String cavvResultCode;
